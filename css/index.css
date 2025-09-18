@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.Quiz-Start{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+    max-width: 550px;
+
+}
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 40px 30px;
+    max-width: 550px;
+    width: 100%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+}
+
+.card h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.time{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc70;
+}
+
+.option-btn {
+    margin: 8px 0;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.option-btn:hover {
+    background: rgba(255, 204, 112, 0.9);
+    color: #000;
+    transform: scale(1.02);
+}
+
+.next{
+    margin: 8px 0;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+.next:hover{
+    background:rgba(255, 204, 112, 0.9);
+    color: #000;
+    transform: scale(1.02);
+}
+.line{
+    height: 2px;
+    width:100%;
+    background-color: rgba(256, 256, 256, 0.2);
+}
